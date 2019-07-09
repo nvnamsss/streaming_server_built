@@ -1,0 +1,22 @@
+2019-06-15 10:08:45.4671|ERROR|Rtsp.RtspListener|Server is crashing
+2019-06-15 10:08:45.5159|ERROR|Rtsp.RtspListener|Server is crashing
+2019-06-15 10:08:45.5159|ERROR|Rtsp.RtspListener|Server is crashing
+2019-06-15 10:28:07.9943|ERROR|Rtsp.RtspListener|Server is crashing 
+InnerException: 
+StackTrace:    at System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   at System.Security.Cryptography.Utils.HashData(SafeHashHandle hHash, Byte[] data, Int32 cbData, Int32 ibStart, Int32 cbSize)
+   at System.Security.Cryptography.MD5CryptoServiceProvider.HashCore(Byte[] rgb, Int32 ibStart, Int32 cbSize)
+   at System.Security.Cryptography.HashAlgorithm.ComputeHash(Byte[] buffer)
+   at Rtsp.Authentication.CalculateMD5Hash(MD5 md5_session, String input) in D:\Git\red5\VODStreamingServer\VODStreamingServer\Rtsp\Authentication.cs:line 178
+   at Rtsp.Authentication.IsValid(RtspMessage received_message) in D:\Git\red5\VODStreamingServer\VODStreamingServer\Rtsp\Authentication.cs:line 106
+   at StreamingServer.RtspServer.RTSPServer.RTSPMessageReceived(Object sender, RtspChunkEventArgs e) in D:\Git\red5\VODStreamingServer\VODStreamingServer\RtspServer\RTSPServer.cs:line 89
+   at Rtsp.RtspListener.OnMessageReceived(RtspChunkEventArgs e) in D:\Git\red5\VODStreamingServer\VODStreamingServer\Rtsp\RTSPListener.cs:line 71
+   at Rtsp.RtspListener.DoJob() in D:\Git\red5\VODStreamingServer\VODStreamingServer\Rtsp\RTSPListener.cs:line 126
+Tracer: TracingAll
+DoJob
+ThreadStart_Context
+RunInternal
+Run
+Run
+ThreadStart
+
