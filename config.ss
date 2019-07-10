@@ -6,3 +6,4 @@ Location: D:/Git/red5/Built/
 --
 Camera: rtsp://admin:5vtuBn3babJTnKMN@115.79.193.33:55400/Streaming/Channels/101/
 Name: FishEye
+Interval: 10
