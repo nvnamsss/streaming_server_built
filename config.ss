@@ -1,5 +1,5 @@
 Type: Proxy
-Location: D:/Git/red5/Built/
+#Location: D:/Git/red5/Built/
 #--
 #Camera: rtsp://user:password@192.168.1.48:8555/115.79.193.33/101/20190701_163523.264/
 #Name: FishEye
