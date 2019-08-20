@@ -13,11 +13,11 @@ Config filename: config.ss
   - Interval: record interval (second)
 ## Other
   - //, #: this line will be count as comment
-Config example:
-///////////////////////////////////////
-Type: Proxy
-Location: /mnt/data/
-//Stream 1
+Config example:\
+///////////////////////////////////////\
+Type: Proxy\
+Location: /mnt/data/\
+//Stream 1\
 --\
 Stream: rtsp://user:password@127.0.0.1:8554/Streaming/Channels/101/\
 Name: Test1\
