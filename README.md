@@ -13,6 +13,7 @@ Config filename: config.ss
   - Interval: record interval (second)
 ## Other
   - //, #: this line will be count as comment
+## Example
 Config example:\
 ///////////////////////////////////////\
 Type: Proxy\
