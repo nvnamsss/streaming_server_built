@@ -18,12 +18,12 @@ Config example:
 Type: Proxy
 Location: /mnt/data/
 //Stream 1
---
-Stream: rtsp://user:password@127.0.0.1:8554/Streaming/Channels/101/
-Name: Test1
-Interval: 10
+--\
+Stream: rtsp://user:password@127.0.0.1:8554/Streaming/Channels/101/\
+Name: Test1\
+Interval: 10\
 //Stream 2
--- 
-Stream: rtsp://user:password@127.0.0.1:8554/Streaming/Channels/102/
-Name: Test2
+-- \
+Stream: rtsp://user:password@127.0.0.1:8554/Streaming/Channels/102/\
+Name: Test2\
 Interval: 10
